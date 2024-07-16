@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat','Comic Sans MS',  sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-top: 5%;
+}
+
+.navbar {
+    margin-bottom: 25px;
+    top:0;
+    color: white!important;
+   
+}
+
+.section-title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    /*color: #282354;*/
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.bi {
+    margin-bottom: 10px;
+    /*color: #282354;*/
+}
+
+#contact .form-control {
+    border-radius: 0;
+}
+
+#contact .btn {
+    background-color: #282354;
+    border: none;
+    border-radius: 5px;
+}
+
+#contact .btn:hover {
+    background-color: #5a5aa4;
+}
+
+/* Navbar Styles */
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #306ab7 !important;
+}
+h2{
+    font-family: 'Bell MT','Times New Roman';
+    font-weight: bolder;
+}
+/* About Section */
+#about {
+    padding: 60px 0;
+}
+
+#about p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 60px 0;
+}
+
+#portfolio .card {
+    border: none;
+}
+
+/* Services Section */
+#services {
+    padding: 60px 0;
+}
+
+#services .bi {
+    font-size: 2em;
+}
+
+#services h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 60px 0;
+}
+
+#contact .form-control {
+    margin-bottom: 15px;
+}
+
+/* Footer Styles */
+footer {
+    
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .social-media a {
+    color: #282354;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-media a:hover {
+    text-decoration: underline;
+}
+
+:root {
+    --primary-color: #282354;
+    --bg-color: #ffffff;
+    --text-color: #282354;
+    --nav-bg-color: #f8f9fa;
+    --card-bg-color: #282354;
+    --card-text-color: #ffffff;
+}
+
+[data-theme="dark"] {
+    --primary-color: #ffffff;
+    --bg-color: #212529;
+    --text-color: #ffffff;
+    --nav-bg-color: #212529;
+    --card-bg-color: #282354;
+    --card-text-color: #ffffff;
+    
+}
+
+body, #about {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.navbar {
+    background-color: var(--nav-bg-color);
+}
+
+.card {
+    background-color: var(--card-bg-color);
+    color: var(--card-text-color);
+}
+p, bi{
+    color:var(--text-color);
+}
+footer .social-media a {
+    color:var(--text-color);
+}
+
+/* Add other styles that should change based on theme */
